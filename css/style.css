@@ -1,7 +1,7 @@
 /*
-* Resume template
-* Created by : Ahmed Essa
-* website : www.ahmedessa.net
+* Anup Basak Resume
+* Created by : Anup basak
+* Facebook : https://www.facebook.com/profile.php?id=100023656428787
 */
 
 
@@ -49,7 +49,7 @@ h4 {
     position: relative;
     color: #425BB5;
     margin-left: 40px;
-    font-weight: 700;
+    font-weight: 1000;
 }
 
 h4:before {
@@ -580,8 +580,8 @@ a.active {
 }
 
 .portfolio_item img {
-    -webkit-filter: grayscale(100%);
-    filter: grayscale(100%);
+    -webkit-filter: grayscale(25%);
+    filter: grayscale(25%);
 }
 
 .portfolio-padding {

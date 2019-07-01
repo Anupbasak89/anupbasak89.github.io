@@ -1,0 +1,239 @@
+ * {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Playfair Display', serif;
+	
+
+}
+
+/*Topbar Css*/
+.topbar {
+	padding: 30px 0;
+}
+
+/*Full website's width*/
+.container {
+    width: 1200px;
+    margin: auto;
+}
+
+/*Logo CSS*/
+.logo {
+	width: 30%;
+	float:  left;
+}
+
+/*ADD any image in logo*/
+.logo img {}
+
+/*Menubar design*/
+.menu {
+	width:70%;
+	float: left;
+}
+
+/*Menu unorder list*/
+.menu ul {
+
+	list-style: none;
+	float: right;
+
+}
+
+/*Menu unorder list item*/
+.menu ul li {
+	display: inline;
+	padding:10px 20px;
+	
+}
+
+/*CSS for List*/
+.menu ul li a {
+	text-decoration: none;
+	color: #000;
+	padding: 10px 20px;
+}
+
+/*CSS for Menu hover*/
+.menu ul li a:hover {
+	color: white;
+	background-color: blue;
+	
+	cursor: pointer;
+
+}
+
+/*Banner Section*/
+.banner {}
+.banner img {
+	width: 100%;
+}
+
+/*SIngle Blog post section*/
+.single{
+	padding: 80px 0;
+
+}
+
+/*CSS for Category and comment part*/
+.category,
+.comment {
+	font-family: 'Ubuntu', sans-serif;
+	color: lightgrey;
+	text-decoration: none;
+	font-size: 17px;
+	text-transform: uppercase;
+	margin-bottom: 30px;
+	display: inline-block;
+}
+/*Single heading post css*/
+.single h1 {
+    color: #626262;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+/*Single post paragraph css*/
+.single p {
+    color: #626262;
+    font-size: 14px;
+    line-height: 24px;
+}
+/*Comment content css*/
+.comment {
+	margin-bottom:  0;
+	margin-top: 30px;
+}
+
+
+/*Blog post section*/
+.blog-posts {
+	padding: 80px 0;
+	
+}
+
+/*css for box content*/
+.box {
+	width: 50%;
+	float: left;
+	padding: 20px;
+	box-sizing: border-box;
+	margin-bottom: 30px;
+}
+
+/*css for image in the box*/
+.box img {
+	display: block;
+	width: 100%;
+	margin-bottom: 30px;
+	
+}
+
+.box .category {}
+
+/*Heading in the box design*/
+.box h1 {
+    color: #626262;
+    margin-bottom: 30px;
+}
+.box p {}
+
+/*CSS for Newsletter part*/
+.newsletter{
+    background: #f0f0f0;
+    clear: both;
+    width: 100%;
+    padding: 80px 0;
+    text-align: center;
+    margin: 100px 0;
+}
+
+/*Newsletter heading part css*/
+.newsletter h1 {
+    color: #626262;
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+/*CSS for form design */
+.newsletter form {
+    border-bottom: 1px solid #333;
+    width: 30%;
+    margin: 0 auto;
+}
+/*CSS for form input design*/
+.newsletter form input {
+	padding: 10px;
+	border: none;
+	background: none;
+	/* position: absolute; */
+	/* top: 10px; */
+	padding-left: 0px;
+	width: 85%;}
+
+.newsletter form img {
+	
+}
+
+/*CSS for button */
+.btn {
+	clear: both;
+	text-align: center;
+	padding-top: 150px;
+
+	margin-bottom: 250px;
+
+}
+/*CSS For button content*/
+.btn a {
+	
+	text-decoration: none;
+	color: #626262;
+	font-size: 24px;
+	text-transform: uppercase;
+	padding: 15px 20px;
+	border: 1px solid #626262;
+	display: inline block;
+	transition: all 0.5s linear; 
+
+}
+/*CSS for hover effect */
+.btn a:hover {
+	background: #626262;
+	color:white;
+
+}
+/*Footer background & height*/
+.footer {
+	background-color: #f0f0f0;
+	height: 80px;
+}
+/*left content of footer*/
+.left_footer {
+	float: left;
+	padding: 20px;
+	box-sizing: border-box;
+	/* margin-bottom: 30px; */
+}
+/*Right content of footer*/
+.right_footer {
+	float: right ;
+	padding: 20px;
+	/*text-align: center;*/
+	box-sizing: border-box;
+}
+
+/*Item of right footer*/
+.right_footer ul {
+	display: inline;
+	padding:10px 10px;
+	float: left;
+}
+/*Item of left footer*/
+.left_footer ul {
+	display: inline;
+	padding:10px 10px;
+	float: left;
+
+}
